@@ -1,0 +1,15 @@
+/workspaces/college-projects/simonsays/bin/Debug/net7.0/simonsays
+/workspaces/college-projects/simonsays/bin/Debug/net7.0/simonsays.deps.json
+/workspaces/college-projects/simonsays/bin/Debug/net7.0/simonsays.runtimeconfig.json
+/workspaces/college-projects/simonsays/bin/Debug/net7.0/simonsays.dll
+/workspaces/college-projects/simonsays/bin/Debug/net7.0/simonsays.pdb
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.csproj.AssemblyReference.cache
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.AssemblyInfoInputs.cache
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.AssemblyInfo.cs
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.csproj.CoreCompileInputs.cache
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.dll
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/refint/simonsays.dll
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.pdb
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/simonsays.genruntimeconfig.cache
+/workspaces/college-projects/simonsays/obj/Debug/net7.0/ref/simonsays.dll
