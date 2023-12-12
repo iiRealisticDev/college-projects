@@ -1,17 +1,21 @@
+// i single-filed this for the sake of simplicity
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
+// Constants that define the size of the deck, the number of players, and the size of each player's hand
 #define DECK_SIZE 52
 #define NUM_PLAYERS 2
 #define HAND_SIZE 5
 
+// this is a type - it defines a new data type called Card
 typedef struct
 {
   char suit;
   int value;
 } Card;
 
+// this will populate the deck, adding the 52 cards to the array
 void populateDeck(Card *deck)
 {
   int index = 0;
@@ -51,6 +55,7 @@ void populateDeck(Card *deck)
   }
 }
 
+// this shuffles the deck - it's a modified version of the Fisher-Yates shuffle https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 void shuffleDeck(Card *deck)
 {
   srand(time(NULL));
@@ -63,6 +68,7 @@ void shuffleDeck(Card *deck)
   }
 }
 
+// this deals the cards to each player
 void dealCards(Card *deck, Card **hands)
 {
   for (int i = 0; i < NUM_PLAYERS; i++)
@@ -74,6 +80,7 @@ void dealCards(Card *deck, Card **hands)
   }
 }
 
+// this is the main function
 int main()
 {
   Card deck[DECK_SIZE];
