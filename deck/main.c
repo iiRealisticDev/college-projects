@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <time.h>
 
+// known windows issue: sometimes a card number of 0 will be printed
+
 // Constants that define the size of the deck, the number of players, and the size of each player's hand
 #define DECK_SIZE 52
 #define NUM_PLAYERS 2
