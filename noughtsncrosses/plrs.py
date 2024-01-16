@@ -12,18 +12,16 @@ def check_win(board: list[list[str]], plr: str):
   for row in board:
     if all(cell == plr for cell in row):
       return True
-  
+
   # Check columns
   for col in range(len(board[0])):
     if all(board[row][col] == plr for row in range(len(board))):
       return True
-  
+
   # Check diagonals
-  if all(board[i][i] == plr for i in range(len(board))):
+  if all(board[i][i] == plr for i in range(len(board))) or all(board[i][len(board) - i - 1] == plr for i in range(len(board))):
     return True
-  if all(board[i][len(board)-i-1] == plr for i in range(len(board))):
-    return True
-  
+
   # Check draw
   if all(cell != " " for row in board for cell in row):
     return "DRAW"

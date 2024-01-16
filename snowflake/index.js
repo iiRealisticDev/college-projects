@@ -1,4 +1,4 @@
-const santaImage = "./assets/santa.jpg";
+const santaImage = "./assets/santa.png";
 
 // nested functions, because i didnt plan this out very well
 function snowflake() {

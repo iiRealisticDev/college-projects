@@ -1,2 +1,3 @@
-/substrings/node_modules
 college-projects.sln
+# block all instances of node_modules
+node_modules
