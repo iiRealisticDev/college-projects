@@ -1,0 +1,15 @@
+{
+  "name": "iot-thing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/index"
+  },
+  "keywords": [],
+  "author": "Thomas Elston-King",
+  "license": "Proprietary",
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
